@@ -1,7 +1,7 @@
 // Go support for Protocol Buffers - Google's data interchange format
 //
 // Copyright 2015 The Go Authors.  All rights reserved.
-// https://github.com/golang/protobuf
+// https://github.com/f-zou/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -40,16 +40,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/f-zou/protobuf/proto"
 
-	pb "github.com/golang/protobuf/jsonpb/jsonpb_test_proto"
-	proto3pb "github.com/golang/protobuf/proto/proto3_proto"
-	"github.com/golang/protobuf/ptypes"
-	anypb "github.com/golang/protobuf/ptypes/any"
-	durpb "github.com/golang/protobuf/ptypes/duration"
-	stpb "github.com/golang/protobuf/ptypes/struct"
-	tspb "github.com/golang/protobuf/ptypes/timestamp"
-	wpb "github.com/golang/protobuf/ptypes/wrappers"
+	pb "github.com/f-zou/protobuf/jsonpb/jsonpb_test_proto"
+	proto3pb "github.com/f-zou/protobuf/proto/proto3_proto"
+	"github.com/f-zou/protobuf/ptypes"
+	anypb "github.com/f-zou/protobuf/ptypes/any"
+	durpb "github.com/f-zou/protobuf/ptypes/duration"
+	stpb "github.com/f-zou/protobuf/ptypes/struct"
+	tspb "github.com/f-zou/protobuf/ptypes/timestamp"
+	wpb "github.com/f-zou/protobuf/ptypes/wrappers"
 )
 
 var (
